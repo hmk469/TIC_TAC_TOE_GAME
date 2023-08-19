@@ -1,38 +1,20 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
 }
-
-.App-link {
-  color: #61dafb;
+.Block{
+  width: 150px;
+  height: 150px;
+  border: 5px solid black;
+  background-size: cover;
+  display: inline-block;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mark1{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc0jtlU_2cWUoRI1plNshrfVSMYeyTew8Sm3PpdzQQ&s');
+}
+.mark2{
+  background-image: url("https://e7.pngegg.com/pngimages/255/685/png-clipart-tic-tac-toe-computer-icons-others-miscellaneous-angle.png");
 }
